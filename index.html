@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="icon" type="image/x-icon" href="assets/deriv-favi-icon.png" />
+    <script
+      src="https://kit.fontawesome.com/ce60de5446.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Derex</title>
+    <style>
+      #nav__hero__wrapper {
+        background-image: url(/assets/deriv-background-img-1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!--All icons are from font awesome version 7-->
+    <main class="container-fluid">
+      <!--Conatiner for both navigation and Hero section-->
+      <section style="height: 100vh" id="nav__hero__wrapper">
+        <!--Navigation bar-->
+        <section class="container">
+          <nav class="navbar fw-bold navbar-expand-md fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="assets/deriv-favi-icon.png" alt="Brand Logo" />
+              </a>
+              <button
+                class="navbar-toggler me-3"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+                style="background-color: rgba(250, 40, 40, 0.956)"
+              >
+                <span class="navbar-toggler-icon text-white"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    <img src="assets/deriv-favi-icon.png" alt="Brand Logo" />
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a
+                        style="color: rgba(241, 17, 17, 0.842)"
+                        class="nav-link active"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: rgba(241, 17, 17, 0.842)"
+                        class="nav-link"
+                        target="_blank"
+                        href="pages/about-Us.html"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: rgba(241, 17, 17, 0.842)"
+                        class="nav-link"
+                        target="_blank"
+                        href="pages/Contact-Us.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button
+                      class="btn fw-bold btn-outline"
+                      style="
+                        color: #fff;
+                        background: rgba(241, 17, 17, 0.842);
+                        width: 100px;
+                      "
+                      type="submit"
+                    >
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+        <!--Hero section-->
+        <section style="padding-top: 150px" id="hero">
+          <div class="container text-center text-white">
+            <h1 class="fw-bold" style="font-size: 5em">Upgrade the Way</h1>
+            <h1 class="fw-bold" style="font-size: 5em">You Trade</h1>
+            <div class="container-fluid">
+              <p class="text-center text-white">
+                Trade with the world's largest retail broker and benefit from
+              </p>
+              <p class="text-center text-white">
+                better-than-market conditions
+              </p>
+            </div>
+          </div>
+          <!--Buttons for CTA-->
+          <div class="d-flex justify-content-center">
+            <button
+              class="btn fw-bold text-dark btn-lg mx-2 px-2 my-1"
+              style="background: rgb(253, 34, 34); width: 100px"
+            >
+              Register
+            </button>
+            <button
+              class="btn fw-bold text-dark btn-lg mx-2 my-1"
+              style="background-color: rgb(212, 209, 209); width: 100px"
+            >
+              Sign In
+            </button>
+          </div>
+        </section>
+      </section>
+
+      <!--This feature is from Exness Broker platform, I loved the arrangements there as compared to deriv broker-->
+      <section class="features">
+        <div class="container-fluid" style="background-color: rgb(9, 9, 46)">
+          <div class="text-center p-5 text-white container">
+            <h2 class="features__headeing">
+              Thrive in the gold,oil,indices and
+            </h2>
+            <h2>crypto markets</h2>
+            <p class="features__subheading">
+              Trading conditions can make or break a strategy, that is why you
+              need the best
+            </p>
+          </div>
+          <div class="container-fluid my-5">
+            <div class="row" id="features__container">
+              <div class="col-md-6 my-3 text-center">
+                <p class="btn btn-secondary text-center text-white">
+                  withdrawals
+                </p>
+                <h2 class="text-center text-white">Instant withdrawals</h2>
+                <p class="text-white text-center">
+                  Deposits and withdrawals approved in seconds
+                </p>
+              </div>
+              <div class="col-md-6 my-3 text-center">
+                <p class="btn btn-secondary text-center text-white">Swaps</p>
+                <h2 class="text-center text-white">Swaps-free trading</h2>
+                <p class="text-white text-center">
+                  Hold overnight positions for free on most popular assets. T&Cs
+                  apply.
+                </p>
+              </div>
+              <div class="col-md-6 my-3 text-center">
+                <p class="btn btn-secondary text-center text-white">Spreads</p>
+                <h2 class="text-center text-white">Unmatched spreads</h2>
+                <p class="text-white text-center">
+                  Trade with spreads that remain tight and stable, even during
+                  market news
+                </p>
+              </div>
+              <div class="col-md-6 my-3 text-center">
+                <p class="btn btn-secondary text-center text-white">
+                  Execution speed
+                </p>
+                <h2 class="text-center text-white">
+                  More speed. less slippage
+                </h2>
+                <p class="text-white text-center">
+                  Trade with the best precise execution in the market
+                </p>
+              </div>
+              <div class="col-md-6 my-3 text-center">
+                <p class="btn btn-secondary text-center text-white">Support</p>
+                <h2 class="text-center text-white">24/7 live support</h2>
+                <p class="text-white text-center">
+                  Get answers in minutes via phone, live chat or email. in 14
+                  languages
+                </p>
+              </div>
+              <div class="col-md-6 my-3 text-center">
+                <p class="btn btn-secondary text-center text-white">
+                  Account security
+                </p>
+                <h2 class="text-center text-white">Best-in-class security</h2>
+                <p class="text-white text-center">
+                  Trade knowing your funds are kept safe in separate client
+                  accounts, with ironclad data protection
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--I was not so sure as whether to add background to each testimonial item-->
+      <section id="testimonials">
+        <div class="container-fluid">
+          <h1 class="text-center fw-bold">Testimonials</h1>
+          <div class="container-lg">
+            <div class="row my-5 justify-content-center">
+              <div class="col-md-3 text-center">
+                <div class="image__wrapper">
+                  <img
+                    src="/assets/user-profile-icon.png"
+                    alt="User profile icon"
+                  />
+                </div>
+                <div class="image__wrapper my-2">
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #ffd43b"
+                  ></i>
+                </div>
+                <p class="text-center">
+                  "Great broker! Whether you’re into forex, commodities, or
+                  cryptocurrencies, Deriv offers an extensive selection to suit
+                  various trading strategies. The advanced charting tools and
+                  analytical features allow for deep insights, making it easier
+                  to make informed decisions"
+                </p>
+                <p class="fw-bold text-center">- Duru Success Chidera.</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="image__wrapper">
+                  <img
+                    src="/assets/user-profile-icon.png"
+                    alt="User profile icon"
+                  />
+                </div>
+                <div class="image__wrapper my-2">
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+                <p class="text-center">
+                  " Traders can choose from synthetic indices, forex,
+                  commodities, and cryptocurrencies. The registration process is
+                  straightforward, enabling quick access to trading once the
+                  necessary verification steps are completed"
+                </p>
+                <p class="fw-bold text-center">- Investor Samuels.</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="image__wrapper">
+                  <img
+                    src="/assets/user-profile-icon.png"
+                    alt="User profile icon"
+                  />
+                </div>
+                <div class="image__wrapper my-2">
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+                <p class="text-center">
+                  "Deriv provides several trading platforms, including Deriv
+                  MT5, Deriv X, and DTrader. Each platform has distinct features
+                  suited for various trading styles"
+                </p>
+                <p class="fw-bold text-center">- Nengi Doughlas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer, I had some issues arranging the items on the footer to appear as fluid. The footer is not a component-->
+    <footer class="container-fluid" id="footer">
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col col-md-4 col-lg-4">
+            <img src="../assets/deriv-favi-icon.png" alt="" />
+          </div>
+          <div class="col px-5 col-md-4 col-lg-4">
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-facebook px-3"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-square-linkedin"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+          </div>
+          <div class="col col-md-4 col-lg-4 d-none">
+            <img
+              src="../assets/deriv-about-us-certification-investinpeople-img.svg"
+              alt="invst in people image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

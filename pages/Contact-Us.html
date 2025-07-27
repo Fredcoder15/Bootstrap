@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/deriv-favi-icon.png" />
+    <script
+      src="https://kit.fontawesome.com/ce60de5446.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .hero {
+        background: url(../assets/exness-about-us-img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        height: 80vh;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container-fluid">
+      <!--Navigation bar-->
+      <nav
+        class="navbar fw-bold bg-body-tertiary navbar-expand-md fixed-top mb-5"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/deriv-favi-icon.png" alt="Brand Logo" />
+          </a>
+          <button
+            style="background-color: rgba(250, 40, 40, 0.956)"
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="../assets/deriv-favi-icon.png" alt="Brand Logo" />
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    target="_blank"
+                    aria-current="page"
+                    href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    target="_blank"
+                    href="../pages/about-Us.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="../pages/Contact-Us.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn fw-bold btn-outline"
+                  style="
+                    color: #fff;
+                    background: rgba(241, 17, 17, 0.842);
+                    width: 100px;
+                  "
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Hero section-->
+      <section id="hero " class="py-5">
+        <div class="container hero my-5" style="padding-top: 180px">
+          <div class="container-sm text-center">
+            <h1 class="fw-bold">Contact us</h1>
+            <p class="text-white">Got questions? Here's how to get anwers</p>
+          </div>
+          <div
+            class="row text-center g-0 justify-content-center align-items-center p-4"
+          >
+            <div class="col-6">
+              <button
+                class="btn text-white bg-danger py-3 btn-outline-none rounded-pill fw-bold"
+              >
+                Visit our help center
+              </button>
+            </div>
+            <div class="col-6">
+              <button
+                class="btn text-white bg-danger py-3 btn-outline-none rounded-pill fw-bold"
+              >
+                Ask Deriv community
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Bootstrap Accordion For locations-->
+      <section id="location__accordion">
+        <h1 class="text-center fw-bold">Europe</h1>
+        <div class="container-md my-5 rounded accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <div class="container-sm">
+                  <div class="row gx-5 px-0">
+                    <div class="col-1">
+                      <img src="../assets/uk-flag.svg" alt="France" />
+                    </div>
+                    <div class="col">
+                      <p class="fw-bold text-muted">United Kingdom</p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body"
+                style="background-color: rgba(85, 82, 82, 0.13)"
+              >
+                <h5 class="fw-bold">Location</h5>
+                <p class="fw-bold py-3 text-muted">
+                  First, 68 - 72 Leonard Street, London, EC2A 4QX
+                </p>
+                <h5 class="fw-bold">Reading</h5>
+                <p class="fw-bold py-3 text-muted">
+                  Deriv Technologies Limited, Apex Forbury Road, Reading RG11AX
+                </p>
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <a href="#" class="text-decoration text-dark">See location</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <div class="container-sm">
+                  <div class="row gx-5 px-0">
+                    <div class="col-1">
+                      <img src="../assets/germany-flag.svg" alt="Germany" />
+                    </div>
+                    <div class="col">
+                      <p class="fw-bold text-muted">Germany</p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body"
+                style="background-color: rgba(85, 82, 82, 0.13)"
+              >
+                <h5 class="fw-bold">Berlin</h5>
+                <p class="fw-bold py-3 text-muted">
+                  Kemperplatz 1 Mitte D, 10785 Berlin
+                </p>
+
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <a href="#" class="text-decoration text-dark">See location</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <div class="container-sm">
+                  <div class="row gx-5 px-0">
+                    <div class="col-1">
+                      <img
+                        src="../assets/channel-islands-flag.svg"
+                        alt="Channels Islands"
+                      />
+                    </div>
+                    <div class="col">
+                      <p class="fw-bold text-muted">Channel Islands</p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body"
+                style="background-color: rgba(85, 82, 82, 0.13)"
+              >
+                <h5 class="fw-bold">Guernsey</h5>
+                <p class="fw-bold py-3 text-muted">
+                  Suite 5, One Cornet Street, St Peter Port, Guernsey GY1 1 BZ
+                </p>
+
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <a href="#" class="text-decoration text-dark">See location</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                <div class="container-sm">
+                  <div class="row gx-5 px-0">
+                    <div class="col-1">
+                      <img src="../assets/france-flag.svg" alt="France" />
+                    </div>
+                    <div class="col">
+                      <p class="fw-bold text-muted">France</p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body"
+                style="background-color: rgba(85, 82, 82, 0.13)"
+              >
+                <h5 class="fw-bold">Paris</h5>
+                <p class="fw-bold py-3 text-muted">
+                  17 Rue d'Antin, 75002 Paris
+                </p>
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <a href="#" class="text-decoration text-dark">See location</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                <div class="container-sm">
+                  <div class="row gx-5 px-0">
+                    <div class="col-1">
+                      <img src="../assets/malta-flag.svg" alt="France" />
+                    </div>
+                    <div class="col">
+                      <p class="fw-bold text-muted">Malta</p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body"
+                style="background-color: rgba(85, 82, 82, 0.13)"
+              >
+                <h5 class="fw-bold">Birkirkara</h5>
+                <p class="fw-bold py-3 text-muted">
+                  Level 3, W Business Center, Triq Dun Karm, Birkirkara, BKR
+                  9033
+                </p>
+
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <a href="#" class="text-decoration text-dark">See location</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                <div class="container-sm">
+                  <div class="row gx-5 px-0">
+                    <div class="col-1">
+                      <img src="../assets/cyprus-flag.svg" alt="France" />
+                    </div>
+                    <div class="col">
+                      <p class="fw-bold text-muted">Cyprus</p>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body"
+                style="background-color: rgba(85, 82, 82, 0.13)"
+              >
+                <h5 class="fw-bold">Limassol</h5>
+                <p class="fw-bold py-3 text-muted">
+                  Business Center, 181, Leoforos Archiepiskopou Makariou III
+                  Avenue 15-1st Fllor, 3030, Limasso
+                </p>
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <a href="#" class="text-decoration text-dark">See location</a>
+                <h5 class="fw-bold my-2">Nicosia</h5>
+                <p class="fw-bold py-3 text-muted">
+                  72 Limassol Avenue , 12th floor, Asteroid Business Center,
+                  2014 Strovolos, Nicosia
+                </p>
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <a href="#" class="text-decoration text-dark">See location</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section before footer-->
+      <section id="before__footer">
+        <div
+          class="container-sm container-md my-5 p-5 rounded text-white"
+          style="background-color: rgba(1, 1, 29, 0.96)"
+        >
+          <div
+            class="row text-center justify-content-center align-items-center"
+          >
+            <div class="col-sm-12 col-md-12 col-lg-6 fw-bold">
+              <h1>Business Partnership</h1>
+              <p class="text-white">
+                Questions about becoming our affiliates or other business
+                collaboration opportunities
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-12 my-5 mx-auto col-lg-6">
+              <button
+                class="text-white fw-bold btn btn-lg px-4 py-2 rounded-pill"
+                type="button"
+                style="background-color: rgba(250, 40, 40, 0.956)"
+              >
+                <i
+                  class="fa-regular fa-comments mx-1"
+                  style="color: #f7f7f7"
+                ></i>
+                Live Chat
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="container-fluid" id="footer">
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col col-md-4 col-lg-4">
+            <img src="../assets/deriv-favi-icon.png" alt="" />
+          </div>
+          <div class="col px-5 col-md-4 col-lg-4">
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-facebook px-3"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-square-linkedin"></i
+            ></a>
+            <a href="https://www.linkedin.com" class="text-dark"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+          </div>
+          <div class="col col-md-4 col-lg-4 d-none">
+            <img
+              src="../assets/deriv-about-us-certification-investinpeople-img.svg"
+              alt="invst in people image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
